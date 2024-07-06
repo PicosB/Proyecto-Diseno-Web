@@ -460,7 +460,7 @@
 
 footer {
     width: 100%;
-    height: 40vh;
+    height: 50vh;
     background-color: black;
 }
 
@@ -469,6 +469,19 @@ footer h3 {
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 5vw;
 
+}
+
+.icon-wrapper{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon{
+    margin: 10vw;
+    color: white;
+    font-size: 400%;
 }
 @media (min-width: 300px) and (max-width: 375px) {
     body {
@@ -483,6 +496,7 @@ footer h3 {
 
     .banner-wrapper {
         width: 120vw;
+        height: 65vh;
     }
 
     .img-wrapper {
@@ -516,6 +530,7 @@ footer h3 {
 
     .title-banner {
         margin-top: 3vh;
+        margin-left: 15vw;
     }
 
     .cta-banner {
@@ -529,6 +544,7 @@ footer h3 {
 
     .banner-image img {
         width: 50vw;
+        margin-left: 35vw;
     }
 
     .value-proposition-wrapper {
@@ -545,7 +561,7 @@ footer h3 {
     }
 
     .circle {
-        margin-left: 35%;
+        margin-left: 40%;
         margin-bottom: 10vh;
         width: 30vw;
         height: 30vw;
@@ -662,23 +678,23 @@ footer h3 {
     }
 }
 
-@media(min-width:375px) and (max-width: 425px) {
+@media(min-width: 375px) and (max-width: 425px) {
     body {
-        width: 100vw;
-
-    }
-
-    .banner-wrapper {
-        display: block;
-        height: 60vh;
-        width: 10px;
-
+        width: 100%;
+        margin: 0;
+        padding: 0;
     }
 
     .navbar-wrapper {
-        width: 100vw;
+        width: 140vw;
     }
 
+    .banner-wrapper {
+
+        width: 120vw; 
+        height: 65vh;
+        display: block;
+    }
 
     .img-wrapper {
         width: 25vw;
@@ -699,19 +715,10 @@ footer h3 {
         width: 100vw;
     }
 
-    .banner-wrapper {
-        width: 80vw;
-    }
-
-    .banner-wrapper {
-        display: block;
-    }
-
     .banner-information {
         display: flex;
         text-align: center;
         align-items: center;
-
     }
 
     .title-banner {
@@ -732,14 +739,11 @@ footer h3 {
     }
 
     .value-proposition-wrapper {
-
         height: 120vh;
     }
 
-
     .value-proposition-title {
         font-size: 3vw;
-
     }
 
     .circle-wrapper {
@@ -759,7 +763,7 @@ footer h3 {
     }
 
     .funny-message-wrapper div {
-        width: 50vw;
+        width: 70vw;
         font-size: 10vw;
     }
 
@@ -776,7 +780,6 @@ footer h3 {
         width: 45vw;
         height: 20vh;
     }
-
 
     .right-element-second-row h3 {
         text-align: center;
@@ -813,9 +816,7 @@ footer h3 {
     }
 
     .left-element-first-row-feedback h3 {
-
         font-size: 100%;
-
     }
 
     .right-element-first-row-feedback img {
@@ -826,7 +827,6 @@ footer h3 {
 
     .left-element-second-row-feedback img {
         position: absolute;
-
         width: 150px;
     }
 
@@ -835,9 +835,8 @@ footer h3 {
     }
 
     .feedback-section {
-        width: 80%;
+        width: 120%;
         display: block;
-
     }
 
     .feedback-text {
@@ -854,28 +853,32 @@ footer h3 {
 
 @media (min-width:425px) and (max-width: 768px) {
     body {
-        width: 100vw;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .navbar-wrapper {
+   
+        width: 120vw; 
     }
 
     .banner-wrapper {
 
-        width: 100%;
-        height: 90vh;
+        width: 100vw; 
+        height: 65vh;
+        display: block;
     }
 
     .img-wrapper {
         width: 25vw;
         height: 20vh;
-        margin-top: 5vh;
+        margin-top: 2vh;
     }
 
     .img-wrapper img {
-        width: 30vw;
-        height: 30vw;
-    }
-
-    .navbar-wrapper{
-        height: 35vh;
+        width: 40vw;
+        height: 18vh;
     }
 
     .sections-wrapper {
@@ -886,26 +889,15 @@ footer h3 {
         width: 100vw;
     }
 
-    .banner-wrapper {
-        width: 80vw;
-    }
-
-    .banner-wrapper {
-        display: block;
-        text-align: center;
-    }
-
     .banner-information {
         display: flex;
         text-align: center;
         align-items: center;
-
     }
 
     .title-banner {
-        font-size: 10vw;
-        margin-top: 10vh;
-        margin-right: 0;
+        margin-top: 3vh;
+        margin-left: 10vw;
     }
 
     .cta-banner {
@@ -914,22 +906,21 @@ footer h3 {
 
     .banner-image {
         margin-right: 0;
-        margin-top: 10vh;
+        margin-top: 2vh;
+        margin-left: 20vw;
     }
 
     .banner-image img {
-        width: 50vw;
+        width: 60vw;
     }
 
     .value-proposition-wrapper {
-
-        height: 130vh;
+        width: 120vw;
+        height: 120vh;
     }
 
-
     .value-proposition-title {
-        font-size: 2vw;
-        margin: 0;
+        font-size: 3vw;
     }
 
     .circle-wrapper {
@@ -949,12 +940,12 @@ footer h3 {
     }
 
     .funny-message-wrapper div {
-        width: 50vw;
+        width: 60vw;
         font-size: 10vw;
     }
 
     .right-element-first-row img {
-        width: 30vw;
+        width: 45vw;
         height: 40vh;
     }
 
@@ -963,10 +954,9 @@ footer h3 {
     }
 
     .left-element-second-row img {
-        width: 25vw;
+        width: 45vw;
         height: 20vh;
     }
-
 
     .right-element-second-row h3 {
         text-align: center;
@@ -974,8 +964,8 @@ footer h3 {
     }
 
     .house-specials-wrapper {
+        width: 120vw;
         height: 160vh;
-
     }
 
     .house-specials-title {
@@ -1004,9 +994,7 @@ footer h3 {
     }
 
     .left-element-first-row-feedback h3 {
-
         font-size: 100%;
-
     }
 
     .right-element-first-row-feedback img {
@@ -1017,19 +1005,19 @@ footer h3 {
 
     .left-element-second-row-feedback img {
         position: absolute;
-
         width: 150px;
     }
 
     .right-element-second-row-feedback h3 {
-        margin-left: 10vw;
+        margin-left: 15vw;
     }
 
+    .feedback-wrapper{
+        width: 120vw;
+    }
     .feedback-section {
-        width: 80%;
-        display: flex;
-        margin-left: 3%;
-
+        width: 100vw;
+        display: block;
     }
 
     .feedback-text {
@@ -1042,7 +1030,16 @@ footer h3 {
         justify-content: center;
         align-items: center;
     }
+
+    .flags-wrapper{
+        width: 120vw;
+    }
+
+    footer{
+        width: 120vw;
+    }
 }
+
 
 @media (min-width:768px) and (max-width: 1000px) {
 
