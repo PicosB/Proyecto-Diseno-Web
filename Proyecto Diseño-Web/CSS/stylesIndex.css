@@ -60,7 +60,7 @@
 }
 
 .banner-wrapper {
-    width: 100%;
+    width: 80vw;    
     height: 50vh;
     background-color: #fae0e3c0;
     display: flex;
@@ -474,16 +474,15 @@ footer h3 {
     margin-left: 5vw;
 
 }
-
-@media(min-width:300px) and (max-width:375px) {
+@media (min-width: 300px) and (max-width: 375px) {
     body {
         width: 100%;
+        margin: 0;
+        padding: 0;
     }
 
     .banner-wrapper {
-
-        width: 100%;
-
+        width: 80vw;
     }
 
     .img-wrapper {
@@ -506,10 +505,6 @@ footer h3 {
     }
 
     .banner-wrapper {
-        width: 80vw;
-    }
-
-    .banner-wrapper {
         display: block;
     }
 
@@ -517,7 +512,6 @@ footer h3 {
         display: flex;
         text-align: center;
         align-items: center;
-
     }
 
     .title-banner {
@@ -538,14 +532,11 @@ footer h3 {
     }
 
     .value-proposition-wrapper {
-
         height: 100vh;
     }
 
-
     .value-proposition-title {
         font-size: 3vw;
-
     }
 
     .circle-wrapper {
@@ -583,7 +574,6 @@ footer h3 {
         height: 20vh;
     }
 
-
     .right-element-second-row h3 {
         text-align: center;
         font-size: 10vw;
@@ -619,9 +609,7 @@ footer h3 {
     }
 
     .left-element-first-row-feedback h3 {
-
         font-size: 100%;
-
     }
 
     .right-element-first-row-feedback img {
@@ -632,7 +620,6 @@ footer h3 {
 
     .left-element-second-row-feedback img {
         position: absolute;
-
         width: 150px;
     }
 
@@ -643,7 +630,6 @@ footer h3 {
     .feedback-section {
         width: 80%;
         display: block;
-
     }
 
     .feedback-text {
@@ -848,11 +834,9 @@ footer h3 {
     }
 }
 
-
 @media (min-width:425px) and (max-width: 768px) {
     body {
-        width: 100%;
-
+        width: 100vw;
     }
 
     .banner-wrapper {
@@ -864,7 +848,7 @@ footer h3 {
     .img-wrapper {
         width: 25vw;
         height: 20vh;
-        margin-top: 2vh;
+        margin-top: 5vh;
     }
 
     .img-wrapper img {
@@ -921,13 +905,13 @@ footer h3 {
 
     .value-proposition-wrapper {
 
-        height: 200vh;
+        height: 130vh;
     }
 
 
     .value-proposition-title {
-        font-size: 3vw;
-
+        font-size: 2vw;
+        margin: 0;
     }
 
     .circle-wrapper {
@@ -972,7 +956,8 @@ footer h3 {
     }
 
     .house-specials-wrapper {
-        height: 240vh;
+        height: 160vh;
+
     }
 
     .house-specials-title {
@@ -1040,3 +1025,35 @@ footer h3 {
         align-items: center;
     }
 }
+
+@media (min-width:768px) and (max-width: 1000px) {
+
+    .sections-wrapper{
+
+        display: none;
+    }
+
+    body {
+        width: 100vw;
+    }
+
+    .img-wrapper img{
+        width: 20vw;
+    }
+    .banner-wrapper {
+        width: 80vw;
+    }   
+
+    .banner-image {
+        margin-right: 0;
+ 
+    }
+
+    .banner-image img {
+        width: 50vw;
+    }
+
+
+}
+
+@media ()
