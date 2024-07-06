@@ -77,7 +77,7 @@
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 800;
     color: #C01E2E;
-    margin-right: 8vw;
+    margin-right: 15vw;
 }
 
 .subtitle-banner {
@@ -87,6 +87,7 @@
     font-size: 150%;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 2vh;
+
 }
 
 .subtitle-banner h4 {
@@ -109,16 +110,11 @@
 .banner-information {
     display: flex;
     flex-direction: column;
-
+    margin-left: 0;
     justify-content: center;
 }
 
-.banner-image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 20vw;
-}
+
 
 .banner-image img {
     width: 450px;
@@ -279,7 +275,7 @@
 .special-content p {
     margin-top: 10px;
     font-size: 300%;
-    color: black;
+    color: white;
     font-weight: 600;
 }
 
@@ -481,8 +477,12 @@ footer h3 {
         padding: 0;
     }
 
+    .navbar-wrapper{
+        width: 140vw;
+    }
+
     .banner-wrapper {
-        width: 80vw;
+        width: 120vw;
     }
 
     .img-wrapper {
@@ -501,7 +501,7 @@ footer h3 {
     }
 
     main {
-        width: 100vw;
+        width: 120vw;   
     }
 
     .banner-wrapper {
@@ -532,6 +532,7 @@ footer h3 {
     }
 
     .value-proposition-wrapper {
+        width: 140vw;
         height: 100vh;
     }
 
@@ -556,7 +557,7 @@ footer h3 {
     }
 
     .funny-message-wrapper div {
-        width: 50vw;
+        width: 70vw;
         font-size: 10vw;
     }
 
@@ -580,6 +581,9 @@ footer h3 {
     }
 
     .house-specials-wrapper {
+   
+        width: 140vw;
+
         height: 160vh;
     }
 
@@ -626,9 +630,13 @@ footer h3 {
     .right-element-second-row-feedback h3 {
         margin-left: 10vw;
     }
+    
+    .feedback-wrapper{
+        width: 140vw;
 
+    }
     .feedback-section {
-        width: 80%;
+        width: 100%;
         display: block;
     }
 
@@ -641,6 +649,16 @@ footer h3 {
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    .flags-wrapper{
+                width: 140vw;
+
+    }
+
+    footer{
+        width: 140vw;
+
     }
 }
 
@@ -1056,4 +1074,49 @@ footer h3 {
 
 }
 
-@media ()
+@media (min-width:1001px) and (max-width: 1110px){
+
+    .img-wrapper img{
+        width: 15vw;
+        margin-left: 4vw;
+        margin-top: 2vh;
+    }
+
+    .sections-wrapper{
+        margin-left: 19vw;
+    }
+
+    .cta-order{
+        margin-left: 5vw;
+    }
+
+    .banner-information{
+        width: 100vw;
+    
+    }
+   
+    .banner-image{
+        width: 50vw;
+    }
+}
+
+@media (min-width:1110px) and (max-width: 1110px)  {
+    .cta-order{
+        margin-left: 10vw;
+    }
+
+}
+
+@media (min-width:1200px) and (max-width: 1300px)  {
+    .title-banner{
+        margin-right: 18vw;
+    }
+
+}
+
+@media (min-width:1300px) and (max-width: 1400px)  {
+    .title-banner{
+        margin-right: 20vw          ;
+    }
+
+}
